@@ -9,7 +9,7 @@ const APPS = [
     title: "夢占い",
     en: "Dream Divination",
     desc: "見た夢からお告げを読み解く夢診断モジュール。",
-    url: "https://hib3.github.io/dream-fortune/", // TODO: 実際のURLに変更
+    url: "https://hib3.github.io/Dream-Interpretation/",
     icon: `<svg viewBox="0 0 24 24" shape-rendering="crispEdges" fill="currentColor">
       <path d="M14 2h4v2h-2v2h-2V2zM16 8h2v2h2v2h-2v2h-2v-2h-2v-2h2V8z"/>
       <path d="M10 3a9 9 0 1 0 9 12 8 8 0 0 1-9-12z" fill="currentColor"/>
@@ -19,7 +19,7 @@ const APPS = [
     title: "Web-Graffiti",
     en: "Web Graffiti",
     desc: "壁に描くように、Web上へ自由に落書きするキャンバス。",
-    url: "https://hib3.github.io/web-graffiti/", // TODO: 実際のURLに変更
+    url: "https://hib3.github.io/Web-Graffiti/",
     icon: `<svg viewBox="0 0 24 24" shape-rendering="crispEdges" fill="currentColor">
       <rect x="9" y="6" width="6" height="14"/>
       <rect x="10" y="3" width="4" height="2"/>
@@ -33,7 +33,7 @@ const APPS = [
     title: "ナッドサット語翻訳",
     en: "Nadsat Translator",
     desc: "時計じかけの若者言葉「ナッドサット」への翻訳装置。",
-    url: "https://hib3.github.io/nadsat-translator/", // TODO: 実際のURLに変更
+    url: "https://hib3.github.io/nadsat-translator-jp/",
     icon: `<svg viewBox="0 0 24 24" shape-rendering="crispEdges" fill="currentColor">
       <path d="M2 4h11v8H8l-3 3v-3H2V4z"/>
       <path d="M11 13h11v8h-3v3l-3-3h-5v-8z" opacity=".55"/>
@@ -43,7 +43,7 @@ const APPS = [
     title: "Radio",
     en: "Radio Station",
     desc: "電波に乗せて流す、自作ラジオサイト。",
-    url: "https://hib3.github.io/radio/", // TODO: 実際のURLに変更
+    url: "https://hib3.github.io/radio/",
     icon: `<svg viewBox="0 0 24 24" shape-rendering="crispEdges" fill="currentColor">
       <rect x="11" y="8" width="2" height="14"/>
       <rect x="7" y="14" width="10" height="2"/>
@@ -57,7 +57,7 @@ const APPS = [
     title: "LifeLog",
     en: "Life Log",
     desc: "日々の記録を積み上げるライフログ台帳。",
-    url: "https://hib3.github.io/lifelog/", // TODO: 実際のURLに変更
+    url: "https://hib3.github.io/LifeLog/",
     icon: `<svg viewBox="0 0 24 24" shape-rendering="crispEdges" fill="currentColor">
       <rect x="4" y="2" width="14" height="20" fill="none" stroke="currentColor" stroke-width="2"/>
       <rect x="7" y="6" width="8" height="2"/>
@@ -71,7 +71,7 @@ const APPS = [
     title: "Odai",
     en: "Odai Generator",
     desc: "行き詰まったときに「お題」を供給する発想支援装置。",
-    url: "https://hib3.github.io/odai/", // TODO: 実際のURLに変更
+    url: "https://hib3.github.io/odai-roulette/",
     icon: `<svg viewBox="0 0 24 24" shape-rendering="crispEdges" fill="currentColor">
       <rect x="3" y="3" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"/>
       <rect x="7" y="7" width="3" height="3"/>
@@ -84,7 +84,7 @@ const APPS = [
     title: "ピクトチャット",
     en: "Picto Chat",
     desc: "手描きメッセージでやり取りする、あの懐かしい交信室。",
-    url: "https://hib3.github.io/pictochat/", // TODO: 実際のURLに変更
+    url: "https://hib3.github.io/PictoChat/",
     icon: `<svg viewBox="0 0 24 24" shape-rendering="crispEdges" fill="currentColor">
       <path d="M2 3h20v13h-9l-5 5v-5H2V3z" fill="none" stroke="currentColor" stroke-width="2"/>
       <rect x="6" y="12" width="2" height="2"/>
