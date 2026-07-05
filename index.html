@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MY_ITEMS // 統合管制卓</title>
+<meta name="description" content="hib3 の制作物を統合したランチャー管制卓">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=DotGothic16&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='16' height='16' fill='%230d120e'/><rect x='3' y='3' width='10' height='10' fill='none' stroke='%23ffb000' stroke-width='2'/><rect x='6' y='6' width='4' height='4' fill='%237bff78'/></svg>">
+</head>
+<body>
+
+<div class="frame">
+
+  <!-- ===== 上部ステータスバー ===== -->
+  <header class="topbar">
+    <div class="hazard-strip" aria-hidden="true"></div>
+    <div class="topbar-inner">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" shape-rendering="crispEdges">
+            <rect x="2" y="2" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"/>
+            <rect x="7" y="7" width="4" height="4" fill="currentColor"/>
+            <rect x="13" y="7" width="4" height="4" fill="currentColor"/>
+            <rect x="7" y="13" width="10" height="4" fill="currentColor"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <h1>MY_ITEMS</h1>
+          <span class="brand-sub">統合管制卓 — UNIFIED LAUNCH CONSOLE</span>
+        </div>
+      </div>
+      <div class="readout" aria-hidden="true">
+        <div class="readout-cell">
+          <span class="readout-label">SYS</span>
+          <span class="readout-value ok">NOMINAL</span>
+        </div>
+        <div class="readout-cell">
+          <span class="readout-label">UNITS</span>
+          <span class="readout-value" id="unit-count">--</span>
+        </div>
+        <div class="readout-cell">
+          <span class="readout-label">CLOCK</span>
+          <span class="readout-value" id="clock">--:--:--</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== 案内行 ===== -->
+  <div class="hint-row" aria-hidden="true">
+    <span class="hint-caret">&gt;</span>
+    <span id="hint-text">モジュールを選択して起動せよ。キー [1]-[7] で直接起動可能。</span>
+  </div>
+
+  <!-- ===== モジュールグリッド ===== -->
+  <main>
+    <ul class="grid" id="grid"></ul>
+  </main>
+
+  <!-- ===== 下部ログティッカー ===== -->
+  <footer class="ticker">
+    <span class="ticker-label">LOG</span>
+    <span class="ticker-body" id="ticker">...</span>
+    <span class="ticker-id">hib3 // My_items</span>
+  </footer>
+
+</div>
+
+<!-- CRT オーバーレイ -->
+<div class="crt" aria-hidden="true"></div>
+
+<script src="main.js"></script>
+</body>
+</html>
